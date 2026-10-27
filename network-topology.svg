@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="500" viewBox="0 0 1100 500" role="img" aria-labelledby="title desc">
+<title id="title">CyberLab network topology</title>
+<desc id="desc">Internet connects through VirtualBox NAT Network CyberLab, gateway 10.0.0.1, to Kali Linux guest at 10.0.0.2.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#161B33"/><stop offset="1" stop-color="#101525"/>
+  </linearGradient>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#7AA2F7"/><stop offset="1" stop-color="#7DCFFF"/>
+  </linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#000" flood-opacity=".35"/>
+  </filter>
+</defs>
+<rect width="1100" height="500" rx="22" fill="url(#bg)"/>
+<g stroke="#414868" stroke-width="1" opacity=".5">
+  <path d="M0 50H1100M0 100H1100M0 150H1100M0 200H1100M0 250H1100M0 300H1100M0 350H1100M0 400H1100M0 450H1100"/>
+  <path d="M50 0V500M100 0V500M150 0V500M200 0V500M250 0V500M300 0V500M350 0V500M400 0V500M450 0V500M500 0V500M550 0V500M600 0V500M650 0V500M700 0V500M750 0V500M800 0V500M850 0V500M900 0V500M950 0V500M1000 0V500M1050 0V500"/>
+</g>
+<text x="42" y="48" fill="#BB9AF7" font-family="monospace" font-size="18" letter-spacing="2">CYBERLAB / NETWORK MAP</text>
+<text x="42" y="76" fill="#565F89" font-family="monospace" font-size="12">VIRTUALIZED LAB · IPv4</text>
+<g fill="none" stroke-width="3" stroke-linecap="round">
+  <path d="M250 245H365" stroke="#7AA2F7"/>
+  <path d="M735 245H850" stroke="#BB9AF7"/>
+</g>
+<g fill="#7AA2F7"><circle cx="308" cy="245" r="5"/><circle cx="337" cy="245" r="5"/></g>
+<g fill="#BB9AF7"><circle cx="780" cy="245" r="5"/><circle cx="809" cy="245" r="5"/></g>
+<g filter="url(#shadow)">
+  <rect x="50" y="175" width="200" height="140" rx="16" fill="#1A1B2E" stroke="#7AA2F7" stroke-width="2"/>
+  <rect x="365" y="145" width="370" height="200" rx="18" fill="#1A1B2E" stroke="#414868" stroke-width="2"/>
+  <rect x="850" y="175" width="200" height="140" rx="16" fill="#1A1B2E" stroke="#BB9AF7" stroke-width="2"/>
+</g>
+<!-- Internet icon -->
+<g transform="translate(128 198)" fill="none" stroke="#7AA2F7" stroke-width="3">
+  <circle cx="22" cy="22" r="19"/><path d="M3 22h38M22 3c-12 12-12 26 0 38M22 3c12 12 12 26 0 38"/>
+</g>
+<text x="150" y="267" fill="#C0CAF5" font-family="monospace" font-size="20" font-weight="700" text-anchor="middle">INTERNET</text>
+<text x="150" y="290" fill="#A9B1D6" font-family="monospace" font-size="12" text-anchor="middle">Outbound access</text>
+<!-- NAT network icon -->
+<g transform="translate(515 172)" stroke="#7DCFFF" fill="none" stroke-width="3">
+  <rect x="0" y="0" width="70" height="44" rx="7"/>
+  <path d="M14 12h42M14 22h42M14 32h26"/>
+  <circle cx="57" cy="32" r="3" fill="#7DCFFF" stroke="none"/>
+</g>
+<text x="550" y="245" fill="#C0CAF5" font-family="monospace" font-size="23" font-weight="700" text-anchor="middle">CyberLab</text>
+<text x="550" y="270" fill="#7DCFFF" font-family="monospace" font-size="16" text-anchor="middle">10.0.0.0/24</text>
+<text x="550" y="297" fill="#A9B1D6" font-family="monospace" font-size="13" text-anchor="middle">VirtualBox NAT Network</text>
+<text x="550" y="320" fill="#BB9AF7" font-family="monospace" font-size="12" text-anchor="middle">Gateway · 10.0.0.1</text>
+<!-- Kali icon -->
+<g transform="translate(916 197)" fill="none" stroke="#BB9AF7" stroke-width="3">
+  <rect x="0" y="0" width="68" height="43" rx="5"/>
+  <path d="M-7 49h82l-8 8H1z" fill="#BB9AF7" stroke="none"/>
+  <path d="M12 13l9 8-9 8M27 29h18" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="950" y="267" fill="#C0CAF5" font-family="monospace" font-size="20" font-weight="700" text-anchor="middle">KALI LINUX</text>
+<text x="950" y="290" fill="#BB9AF7" font-family="monospace" font-size="15" text-anchor="middle">10.0.0.2/24</text>
+<text x="550" y="405" fill="#565F89" font-family="monospace" font-size="12" text-anchor="middle">HOST: ARCH LINUX  /  HYPERVISOR: VIRTUALBOX 7.2.20</text>
+<text x="550" y="435" fill="#9ECE6A" font-family="monospace" font-size="13" text-anchor="middle">✓ Gateway reachable   ✓ External IP reachable   ✓ DNS resolution verified</text>
+<text x="550" y="465" fill="#565F89" font-family="monospace" font-size="11" text-anchor="middle">Diagram represents the configured lab; it is not a live network scan.</text>
+</svg>
